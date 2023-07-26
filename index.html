@@ -1,28 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Page Title</title>
+    <title>Yokaicord - Bot de Discord</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
+        <h1>Yokaicord - Bot de Discord</h1>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#comandos">Comandos</a></li>
+                <li><a href="#acerca">Acerca</a></li>
             </ul>
         </nav>
     </header>
+    
     <main>
-        <!-- Your content goes here -->
-        <h1>Welcome to Your Website</h1>
-        <p>This is a simple HTML template. You can modify it to suit your needs.</p>
+        <section id="inicio">
+            <h2>Bienvenido a Yokaicord</h2>
+            <p>Yokaicord es un bot de Discord que te ayuda a administrar y mejorar tu servidor. ¡Únete a nuestra comunidad y potencia tu servidor con Yokaicord!</p>
+            <button id="btnInvite" onclick="redirectToInvite()">Invitar al Bot</button>
+        </section>
+
+        <section id="comandos">
+            <h2>Comandos</h2>
+            <ul>
+                <li><strong>!ayuda</strong> - Muestra la lista de comandos disponibles.</li>
+                <li><strong>!saludar</strong> - Saluda al bot y obtén una respuesta amistosa.</li>
+                <!-- Agrega más comandos aquí -->
+            </ul>
+        </section>
+
+        <section id="acerca">
+            <h2>Acerca de Yokaicord</h2>
+            <p>Yokaicord es un bot de Discord creado para ayudar a los usuarios a moderar y entretener sus servidores. Fue desarrollado con JavaScript y Discord.js.</p>
+        </section>
     </main>
+
     <footer>
-        <p>&copy; 2023 Your Website. All rights reserved.</p>
+        <p>&copy; 2023 Yokaicord. Todos los derechos reservados.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
